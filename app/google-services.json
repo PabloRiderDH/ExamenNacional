@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "708759478858",
+    "firebase_url": "https://examennacional-eddf9-default-rtdb.firebaseio.com",
+    "project_id": "examennacional-eddf9",
+    "storage_bucket": "examennacional-eddf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708759478858:android:a5e78f800dced286fcfcb3",
+        "android_client_info": {
+          "package_name": "com.example.ExamenNacional"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5uxbAkKJ3DRh_apSJbFaX7r4MZmlhgRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

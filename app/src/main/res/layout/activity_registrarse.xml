@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/cemento"
+    tools:context=".Registrarse">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="522dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp">
+
+        <TextView
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="ingrese un email" />
+
+        <TextView
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="ingrese un password" />
+
+        <TextView
+            android:id="@+id/et_pasVerificar"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="verifique password" />
+
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
